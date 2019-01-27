@@ -1,0 +1,41 @@
+{
+  "name": "tarock-phaser3",
+  "version": "0.0.1",
+  "description": "Tarock game with Phaser 3 and Typescript",
+  "keywords": [
+    "Phaser",
+    "Phaser 3",
+    "Phaser3",
+    "TypeScript",
+    "Webpack",
+    "Tarock"
+  ],
+  "devDependencies": {
+    "expose-loader": "0.7.5",
+    "ts-loader": "5.3.2",
+    "typescript": "3.2.2",
+    "webpack": "4.28.3",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.14"
+  },
+  "dependencies": {
+    "phaser": "3.15.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manmat/tarokk.git"
+  },
+  "author": {
+    "name": "qwe2",
+    "email": "gansperger@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manmat/tarokk/issues"
+  },
+  "homepage": "https://github.com/manmat/tarokk"
+}
